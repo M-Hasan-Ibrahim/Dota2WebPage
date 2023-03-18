@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+
+    <link rel="stylesheet" href="quiz.css" />
+    <script src="quiz.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Your Only Test</h1>
+    </header>
+
+    <main>
+      <div class="testIntro">
+        <p>
+          This is a <span class="highlightedWords">test</span> to see if you are
+          worthy to scroll through
+          <span class="highlightedWords">my website</span>.
+        </p>
+        <p>
+          <span class="highlightedWords">Note</span> that this test is not hard,
+          you just have to <span class="highlightedWords">choose</span> one of
+          the <span class="highlightedWords">buttons</span> below.
+        </p>
+
+        <i style="font-size: 15px">
+          If you are a fortnite player please leave my website you are not
+          welcomed
+        </i>
+      </div>
+
+      <div class="buttonContainer firstButton">
+        <button>
+          <a onclick="checker()" href="./LOLPlayer/punishment.html">
+            <span>Click Here If You Are A LOL Player</span>
+          </a>
+        </button>
+      </div>
+
+      <div class="buttonContainer secondButton">
+        <button
+          onclick="alert(
+          'Congratulations you passed the test\nFeel free to scroll through the website\nThank you for visiting\nEnjoy'
+        );"
+        >
+          <a href="../Home/home.html">
+            <span>Click Here If You Are A Dota Player</span>
+          </a>
+        </button>
+      </div>
+
+      <div class="buttonContainer thirdButton">
+        <button
+          onclick="alert(
+          'Congratulations you passed the test\nFeel free to scroll through the website\nThank you for visiting\nEnjoy'
+        );"
+        >
+          <a href="../Home/home.html">
+            <span>Click Here If You Are A Human</span>
+          </a>
+        </button>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: black; */
+  height: 24vh;
+}
+
+.headerContainer nav {
+  width: 30%;
+  /* background-color: red; */
+}
+
+.headerContainer h1 {
+  margin-left: 30px;
+  background: -webkit-linear-gradient(bottom right, #f59a08, #c10c0c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.headerContainer .listHeaderContainer {
+  display: flex;
+  list-style: none;
+  /* background-color: white; */
+}
+
+.headerContainer .listHeaderContainer li {
+  margin-left: 5%;
+  color: white;
+  font-size: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerContainer .listHeaderContainer li a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: bold;
+  transition: all 500ms ease-in-out;
+}
+
+.headerContainer .listHeaderContainer li a:hover {
+  color: red;
+  box-shadow: inset 150px 0 0 0 #2e2c2c;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+main div {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+main div img {
+  width: 100%;
+  /* height: 70vh; */
+}
+
+main .projectPurpose {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 30vw;
+
+  /* font-size: 15px; */
+
+  margin: 5% 25vw 10% 25vw;
+  width: 50vw;
+
+  /* background-color: red; */
+}
+
+main .projectPurpose p span {
+  background: -webkit-linear-gradient(
+    bottom right,
+    violet,
+    white,
+    yellow,
+    green
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+main .projectPurpose h2 {
+  background: -webkit-linear-gradient(
+    bottom right,
+    rgb(128, 128, 232),
+    rgb(21, 221, 21)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: #737170;
+
+  border-top: 0.1px solid white;
+}
+
+.SlideShowsContainer {
+  display: flex;
+
+  margin: 2.5% 1.25% 2.5% 1.25%;
+
+  /* background-color: blue; */
+}
+
+.mySlides {
+  display: none;
+
+  /* background-color: red; */
+}
+
+.mySlides1 {
+  display: none;
+
+  /* background-color: red; */
+}
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  width: 30vw;
+  /* right: 40vw; */
+  /* background-color: red; */
+}
+.slideshow-container1 {
+  position: relative;
+  width: 60vw;
+  margin-left: 5%;
+  /* left: 5px; */
+  /* background-color: red; */
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slideshow-container .mySlides img {
+  height: 75vh;
+  width: 100%;
+}
+
+.slideshow-container1 .mySlides1 img {
+  height: 75vh;
+  width: 100%;
+}

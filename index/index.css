@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: black; */
+  height: 24vh;
+}
+
+.headerContainer nav {
+  width: 30%;
+  /* background-color: red; */
+}
+
+.headerContainer h1 {
+  margin-left: 30px;
+  background: -webkit-linear-gradient(bottom right, #f59a08, #c10c0c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.headerContainer .listHeaderContainer {
+  display: flex;
+  list-style: none;
+  /* background-color: white; */
+}
+
+.headerContainer .listHeaderContainer li {
+  margin-left: 5%;
+  color: white;
+  font-size: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerContainer .listHeaderContainer li a {
+  pointer-events: none;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: bold;
+  transition: all 500ms ease-in-out;
+}
+
+.headerContainer .listHeaderContainer li a:hover {
+  color: red;
+  box-shadow: inset 150px 0 0 0 #2e2c2c;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+main div {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+main div img {
+  width: 100%;
+  /* height: 70vh; */
+}
+
+main .enableButton {
+  display: flex;
+  justify-content: center;
+  /* background-color: black; */
+}
+
+main .enableButton button {
+  margin-top: 3%;
+  margin-bottom: 3%;
+
+  background: #470000;
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+
+main .enableButton button a {
+  text-decoration: none;
+}
+
+main .enableButton button span {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: -webkit-radial-gradient(#ff0000, #910101);
+
+  color: white;
+  transform: translateY(-6px);
+  font-weight: 700;
+}
+
+main .enableButton button span:hover {
+  color: black;
+}
+
+main .enableButton button:active span {
+  transform: translateY(-2px);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: #737170;
+
+  border-top: 0.1px solid white;
+}

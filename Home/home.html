@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <link rel="stylesheet" href="home.css" />
+    <!-- <script src="home.js"></script> -->
+
+    <script
+      src="https://kit.fontawesome.com/fcf492b774.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="headerContainer">
+      <h1>Dota 2 Website</h1>
+
+      <nav>
+        <ul class="listHeaderContainer">
+          <li>
+            <i class="fa fa-home"></i>
+            <a href="../Home/home.html">Home </a>
+          </li>
+          <li>
+            <i class="fa fa-user"></i>
+            <a href="../Characters/characters.html">Characters</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-id-card-clip"></i>
+            <a href="../Contact/contact.html">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div>
+        <img src="Dota 2 4k banner.jpg" alt="Dota 2 Banner" />
+      </div>
+
+      <div class="projectPurpose">
+        <h2>Purpose Of This Website</h2>
+        <p>
+          <span class="highlightedWords">2016-2022</span> these are the years I
+          waisted playing dota 2.
+        </p>
+        <p>
+          Therefore I decided to use this game to make my
+          <span class="highlightedWords">IEEE</span> Web development project so
+          that I may get back a little benefit after all these waisted years
+        </p>
+        <p>
+          Before you move on I just want to let you know that games are just a
+          waist of time go learn web development with
+          <span class="highlightedWords">Mr.Abdallah Melhem</span> bacause this
+          is the only thing that will ever help you in life.
+        </p>
+      </div>
+
+      <div class="SlideShowsContainer">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./slideshow1/slideshow1-a.webp" />
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./slideshow1/slideshow1-b.jpg" />
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./slideshow1/slideshow1-c.jpg" />
+          </div>
+        </div>
+
+        <div class="slideshow-container1">
+          <div class="mySlides1 fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="./slideshow2/slideshow2-a.jpg" />
+          </div>
+
+          <div class="mySlides1 fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="./slideshow2/slideshow2-b.jpg" />
+          </div>
+
+          <div class="mySlides1 fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="./slideshow2/slideshow2-c.jpg" />
+          </div>
+          <div class="mySlides1 fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="./slideshow2/slideshow2-d.jpg" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>&copy; Mohamad Hasan Ibrahim</footer>
+
+    <script>
+      let slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 4500);
+      }
+
+      let slideIndex1 = 0;
+      showSlides1();
+
+      function showSlides1() {
+        let j;
+        let slides1 = document.getElementsByClassName("mySlides1");
+        for (j = 0; j < slides1.length; j++) {
+          slides1[j].style.display = "none";
+        }
+        slideIndex1++;
+        if (slideIndex1 > slides1.length) {
+          slideIndex1 = 1;
+        }
+
+        slides1[slideIndex1 - 1].style.display = "block";
+        setTimeout(showSlides1, 3500);
+      }
+    </script>
+  </body>
+</html>

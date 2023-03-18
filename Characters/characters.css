@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: blue; */
+  height: 15vh;
+}
+
+.headerContainer nav {
+  width: 30%;
+  /* background-color: red; */
+}
+
+.headerContainer h1 {
+  margin-left: 30px;
+  background: -webkit-linear-gradient(bottom right, #f59a08, #c10c0c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.headerContainer .listHeaderContainer {
+  display: flex;
+  list-style: none;
+  /* background-color: white; */
+}
+
+.headerContainer .listHeaderContainer li {
+  margin-left: 5%;
+  color: white;
+  font-size: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerContainer .listHeaderContainer li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: bold;
+  transition: all 500ms ease-in-out;
+}
+
+.headerContainer .listHeaderContainer li a:hover {
+  color: red;
+  box-shadow: inset 150px 0 0 0 #2e2c2c;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+main .mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: red; */
+}
+
+main .heroCard {
+  /* background-color: white; */
+
+  margin-left: 1.5%;
+  /* margin-bottom: 1%; */
+  height: 15vh;
+  width: 10%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  transition: all 500ms ease-in-out;
+}
+
+main .heroCard span {
+  opacity: 0;
+  transition: all 500ms ease-in-out;
+}
+
+main .heroCard:hover {
+  box-shadow: 5px 5px rgb(71, 69, 69);
+  transform: translateY(-5px);
+
+  background-color: rgb(102, 97, 97);
+}
+
+main .heroCard:hover span {
+  opacity: 1;
+}
+
+main .heroCard .characterImage {
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: #737170;
+
+  border-top: 0.1px solid white;
+}

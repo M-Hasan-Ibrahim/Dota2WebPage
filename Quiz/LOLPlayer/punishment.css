@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  background-image: url(error.jpg);
+  /* background-repeat: no-repeat; */
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  /* background-color: black; */
+}
+
+.buttonContainer button {
+  /* margin-top: 3%;
+  margin-bottom: 3%; */
+
+  background: #073fd7;
+  opacity: 0.3;
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+
+.buttonContainer button a {
+  text-decoration: none;
+}
+
+.buttonContainer button span {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  /* background: -webkit-radial-gradient(#ff0000, #910101); */
+
+  color: white;
+  transform: translateY(-6px);
+  font-weight: 700;
+}
+
+.buttonContainer button span:hover {
+  color: black;
+}
+
+.buttonContainer button:active span {
+  transform: translateY(-2px);
+}
+
+.Button1 {
+  position: absolute;
+  top: 23.5%;
+  left: 5%;
+  transform: rotate(4.5deg);
+}
+
+.Button2 {
+  position: absolute;
+  top: 28.5%;
+  right: 9%;
+  transform: rotate(4.8deg);
+}
+
+.Button3 {
+  position: absolute;
+  bottom: 25%;
+  left: 5%;
+  transform: rotate(1.5deg);
+}
+
+.Button4 {
+  position: absolute;
+  bottom: 21.5%;
+  right: 9%;
+  transform: rotate(1.5deg);
+}
