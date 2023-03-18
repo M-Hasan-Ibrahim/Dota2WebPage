@@ -38,10 +38,6 @@ body {
   margin-left: 5%;
   color: white;
   font-size: 20px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .headerContainer .listHeaderContainer li a {
@@ -51,9 +47,13 @@ body {
   font-style: oblique;
   font-weight: bold;
   transition: all 500ms ease-in-out;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.headerContainer .listHeaderContainer li a:hover {
+.headerContainer .listHeaderContainer li a:hover p {
   color: red;
   box-shadow: inset 150px 0 0 0 #2e2c2c;
   border-radius: 20%;
