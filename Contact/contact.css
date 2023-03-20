@@ -142,10 +142,10 @@
   transform: translateY(-20px);
 }
 
-.contactForm .inputBox input:invalid,
+/* .contactForm .inputBox input:invalid,
 .contactForm .inputBox textarea:invalid {
   background: rgb(245, 98, 98);
-}
+} */
 
 .contactForm .inputBox input:valid,
 .contactForm .inputBox textarea:valid {
