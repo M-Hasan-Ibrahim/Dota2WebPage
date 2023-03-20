@@ -131,7 +131,7 @@ let i = 0;
 for (i = 0; i < dota2Heroes.length; i++) {
   const markup = `
   <div class="heroCard">
-  <img src="heroIcons/${dota2Heroes[i]}.webp" alt="" class="characterImage" />
+  <img src="heroIcons/${dota2Heroes[i]}.webp" alt="${dota2Heroes[i]} icon" class="characterImage" />
   <span>${dota2Heroes[i]}</span>
   </div>
   `;

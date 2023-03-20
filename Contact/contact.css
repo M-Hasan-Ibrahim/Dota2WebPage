@@ -142,6 +142,16 @@
   transform: translateY(-20px);
 }
 
+.contactForm .inputBox input:invalid,
+.contactForm .inputBox textarea:invalid {
+  background: rgb(245, 98, 98);
+}
+
+.contactForm .inputBox input:valid,
+.contactForm .inputBox textarea:valid {
+  background: rgb(14, 239, 14);
+}
+
 .contactForm .inputBox input[type="submit"] {
   width: 100px;
   background: #f2021e;
