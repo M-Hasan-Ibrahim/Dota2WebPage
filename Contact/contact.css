@@ -39,17 +39,12 @@
 .header-container .nav-container .list-header-container {
   display: flex;
   list-style: none;
-  /* background-color: white; */
 }
 
 .header-container .nav-container .list-header-container li {
   margin-left: 5%;
   color: white;
   font-size: 30px;
-
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
 }
 
 .header-container .nav-container .list-header-container li a {
@@ -82,7 +77,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* background-image: url(backgroundImage.jpg); */
   background: linear-gradient(to bottom right, #c10c0c, #9f6201);
 
   background-size: cover;
@@ -190,7 +184,6 @@
 }
 
 .contact-form .input-box input[type="submit"] {
-.contactForm .inputBox input[type="submit"] {
   width: 100px;
   background: #f2021e;
   color: #fff;
