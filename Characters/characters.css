@@ -96,24 +96,51 @@ body {
 }
 
 main .main-container {
+  margin-left: 2.5%;
+  margin-top: -1.5%;
+  /* background-color: red; */
+}
+
+main .main-container h2 {
+  color: white;
+}
+
+main .main-container .primary-attribute {
+  display: flex;
+  align-items: center;
+
+  margin-top: 2.5%;
+  margin-bottom: 1%;
+}
+
+main .main-container .strength {
   display: flex;
   flex-wrap: wrap;
+}
 
-  margin-left: 3.5%;
-  /* background-color: red; */
+main .main-container .agility {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .main-container .intelligence {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 main .hero-card {
   /* background-color: white; */
 
-  margin-left: 1.5%;
-  /* margin-bottom: 1%; */
-  height: 15vh;
+  margin-right: 1%;
+
   width: 10%;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  text-decoration: none;
+  color: black;
 
   transition: all 500ms ease-in-out;
 }
