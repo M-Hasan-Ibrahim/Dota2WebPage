@@ -190,6 +190,7 @@
 }
 
 .contact-form .input-box input[type="submit"] {
+.contactForm .inputBox input[type="submit"] {
   width: 100px;
   background: #f2021e;
   color: #fff;
