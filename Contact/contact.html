@@ -11,29 +11,53 @@
       href="https://kit.fontawesome.com/fcf492b774.css"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/fcf492b774.js"
+      crossorigin="anonymous"
+    ></script>
 
     <link rel="stylesheet" href="contact.css" />
   </head>
   <body>
-    <div class="contact">
-      <img
-        src="back arrow.png"
-        alt="Go Back To Home Page"
-        height="50px"
-        class="arrow"
-        onclick="history.back();"
-      />
-      <div class="Title">
-        <h1>Contact Me</h1>
+    <header class="header-container">
+      <div class="title">
+        <img src="dota-logo.jpg" alt="" />
+        <h1>Dota 2 Website</h1>
       </div>
 
+      <div class="nav-container">
+        <nav>
+          <ul class="list-header-container">
+            <li>
+              <a href="/Home/home.html">
+                <i class="fa fa-home"></i>
+                <p>Home</p>
+              </a>
+            </li>
+            <li>
+              <a href="/Characters/characters.html">
+                <i class="fa fa-user"></i>
+                <p>Characters</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-id-card-clip"></i>
+                <p>Contact Me</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="contact">
       <div class="container">
-        <div class="contactInfo">
-          <div class="divInfo">
+        <div class="contact-info">
+          <div class="div-info">
             <div class="icon">
               <i class="fa fa-map-marker" aria-hidden="true"></i>
             </div>
-            <div class="myInfo">
+            <div class="my-info">
               <h3>Adress</h3>
               <p>
                 Lebanon<br />
@@ -44,22 +68,22 @@
 
           <!-- ggrgerwgerge4wrgew -->
 
-          <div class="divInfo">
+          <div class="div-info">
             <div class="icon">
               <i class="fa fa-phone" aria-hidden="true"></i>
             </div>
-            <div class="myInfo">
+            <div class="my-info">
               <h3>Email</h3>
               <p>mohamadhasan0711@gmail.com</p>
             </div>
           </div>
 
           <!-- erhyertyeryteryetry -->
-          <div class="divInfo">
+          <div class="div-info">
             <div class="icon">
               <i class="fa fa-envelope" aria-hidden="true"></i>
             </div>
-            <div class="myInfo">
+            <div class="my-info">
               <h3>Phone</h3>
               <p>+961 71 427 901</p>
             </div>
@@ -67,26 +91,26 @@
 
           <!-- sewgewgewgweggwe -->
         </div>
-        <div class="contactForm">
+        <div class="contact-form">
           <form
             action="mailto: mohamadhasan0711@gmail.com"
             method="post"
             enctype="text/plain"
           >
             <h2>Send Message</h2>
-            <div class="inputBox">
+            <div class="input-box">
               <input type="text" required="required" />
               <span>Full Name</span>
             </div>
-            <div class="inputBox">
+            <div class="input-box">
               <input type="email" required="required" />
               <span>Email</span>
             </div>
-            <div class="inputBox">
+            <div class="input-box">
               <textarea name="Message" required="required"></textarea>
               <span>Type your Message...</span>
             </div>
-            <div class="inputBox">
+            <div class="input-box">
               <input type="submit" name="" value="Send" />
             </div>
           </form>

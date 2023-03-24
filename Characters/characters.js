@@ -130,14 +130,14 @@ const dota2Heroes = [
 let i = 0;
 for (i = 0; i < dota2Heroes.length; i++) {
   const markup = `
-  <div class="heroCard">
-  <img src="heroIcons/${dota2Heroes[i]}.webp" alt="${dota2Heroes[i]} icon" class="characterImage" />
+  <div class="hero-card">
+  <img src="heroIcons/${dota2Heroes[i]}.webp" alt="${dota2Heroes[i]} icon" class="character-image" />
   <span>${dota2Heroes[i]}</span>
   </div>
   `;
 
   // console.log(dota2Heroes[i]);
   document
-    .querySelector(".mainContainer")
+    .querySelector(".main-container")
     .insertAdjacentHTML("beforeend", markup);
 }

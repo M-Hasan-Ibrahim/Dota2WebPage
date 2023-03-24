@@ -23,31 +23,35 @@ header h1 {
   background: -webkit-linear-gradient(bottom right, #f59a08, #c10c0c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-main .testIntro {
+main .test-intro {
   /* background-color: red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
+  font-family: cursive;
+
   font-size: 20px;
 }
 
-main .testIntro .highlightedWords {
+main .test-intro .highlighted-words {
   background: -webkit-linear-gradient(green, yellow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-main .buttonContainer {
+main .button-container {
   display: flex;
   justify-content: center;
   /* background-color: black; */
 }
 
-main .buttonContainer button {
+main .button-container button {
   /* margin-top: 3%;
   margin-bottom: 3%; */
 
@@ -59,11 +63,11 @@ main .buttonContainer button {
   outline-offset: 4px;
 }
 
-main .buttonContainer button a {
+main .button-container button a {
   text-decoration: none;
 }
 
-main .buttonContainer button span {
+main .button-container button span {
   display: block;
   padding: 12px 42px;
   border-radius: 12px;
@@ -71,31 +75,32 @@ main .buttonContainer button span {
   background: -webkit-radial-gradient(#ff0000, #910101);
 
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
   transform: translateY(-6px);
   font-weight: 700;
 }
 
-main .buttonContainer button span:hover {
+main .button-container button span:hover {
   color: black;
 }
 
-main .buttonContainer button:active span {
+main .button-container button:active span {
   transform: translateY(-2px);
 }
 
-main .firstButton {
+main .first-button {
   position: absolute;
   left: 5%;
   top: 50%;
 }
 
-main .secondButton {
+main .second-button {
   position: absolute;
   right: 5%;
   top: 50%;
 }
 
-main .thirdButton {
+main .third-button {
   position: absolute;
   right: 37%;
   top: 75%;
