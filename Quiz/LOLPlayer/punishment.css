@@ -7,6 +7,7 @@
 body {
   color: white;
   background-image: url(error.jpg);
+  background-size: cover;
   /* background-repeat: no-repeat; */
 }
 
@@ -79,4 +80,18 @@ body {
   bottom: 21.5%;
   right: 9%;
   transform: rotate(1.5deg);
+}
+
+.button5 {
+  position: absolute;
+  top: 15%;
+  right: 45%;
+  transform: rotate(4.8deg);
+}
+
+.button6 {
+  position: absolute;
+  bottom: 10%;
+  right: 45%;
+  transform: rotate(4.8deg);
 }
