@@ -236,14 +236,14 @@ main .hero-card span {
   transition: all 500ms ease-in-out;
 }
 
-main .hero-card:hover {
+main .hero-card:is(:hover, :focus) {
   box-shadow: 5px 5px rgb(71, 69, 69);
   transform: translateY(-5px);
 
   background-color: rgb(102, 97, 97);
 }
 
-main .hero-card:hover span {
+main .hero-card:is(:hover, :focus) span {
   opacity: 1;
 }
 
